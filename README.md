@@ -1,6 +1,22 @@
 # An Expenses application built with React
+### Concepts of the app explored 
+  state/lifting state
+  presentational and stateful components 
+  dynamic styling
+  conditional content
+  controlled components
+  form submission
+  typical js array/object handling
 
-# Getting Started with Create React App
+The app allows you to add Expenses; with a name, amount, and date. You can then filter your expenses by year. The chart will fill the bars according
+to how much you spend each month, relative to every month that year.
+
+### TODO: 
+  Add delete expenses button.
+  Find a way to persists data.
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
