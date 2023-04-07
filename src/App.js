@@ -34,10 +34,18 @@ const App = () => {
     });
   };
 
+  const removeExpenseHandler = (id) => {
+    console.log("app removeExpenseHandler called");
+    const newExpenses = expenses.filter((item) => item.id !== id);
+    console.log(id, "", expenses);
+    console.log({ newExpenses });
+    setExpenses(newExpenses);
+  };
+
   return (
     <div>
       <NewExpense onAddExpense={addExpenseHandler} />
-      <Expenses expenses={expenses} />
+      <Expenses expenses={expenses} onRemove={removeExpenseHandler} />
     </div>
   );
 };

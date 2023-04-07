@@ -3,7 +3,15 @@
   padding: 0;
 }
 
+.expenses-list li {
+  flex: auto;
+}
+
 .expenses-list__fallback {
   color: white;
   text-align: center;
+}
+
+.expenses-list_item-container {
+  display: flex;
 }
