@@ -1,5 +1,6 @@
 # An Expenses application built with React
 Live URL: https://react-expenses-coral.vercel.app/
+
 ### Concepts of the app explored 
   state/lifting state
   presentational and stateful components 
@@ -9,12 +10,13 @@ Live URL: https://react-expenses-coral.vercel.app/
   form submission
   typical js array/object handling
 
-The app allows you to add Expenses; with a name, amount, and date. You can then filter your expenses by year. The chart will fill the bars according
-to how much you spend each month, relative to every month that year.
+This app allows you to add Expenses; with a name, amount, and date. You can then filter your expenses by year. The chart will fill the bars according
+to how much you spend each month, relative to every month that year. You can now also delete the expenses.
 
 ### TODO: 
-  Add delete expenses button.
-  Find a way to persists data.
+  Find a way to persist data
+  Add and implement View Expense Button & Functionality
+  Add and implement Edit Expense Button & Functionality
 
 
 ## Getting Started with Create React App
@@ -85,5 +87,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
+
+This app is an extension/alteration of the app built in 'React - The Complete Guide' by Maximilian Schwarzmüller on Udemy.
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
