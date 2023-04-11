@@ -2,16 +2,8 @@ import ExpenseDate from "./ExpenseDate";
 import Card from "../UI/Card";
 import "./ExpenseItem.css";
 import Button from "../UI/Button";
-import { useState } from "react";
 
 const ExpenseItem = ({ expense, onRemove }) => {
-  const deleteHandler = (id) => {
-    console.log(id);
-  };
-
-  console.log({ expense });
-  console.log({ onRemove });
-
   return (
     <li>
       <Card className="expense-item">

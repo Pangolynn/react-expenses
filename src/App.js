@@ -28,17 +28,13 @@ const App = () => {
   const [expenses, setExpenses] = useState(INITIAL_EXPENSES);
 
   const addExpenseHandler = (expense) => {
-    console.log(expense);
     setExpenses((prevExpenses) => {
       return [expense, ...prevExpenses];
     });
   };
 
   const removeExpenseHandler = (id) => {
-    console.log("app removeExpenseHandler called");
     const newExpenses = expenses.filter((item) => item.id !== id);
-    console.log(id, "", expenses);
-    console.log({ newExpenses });
     setExpenses(newExpenses);
   };
 
